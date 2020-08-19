@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="690e0a8f-b0e8-4d7c-876f-d65a9d03d170" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.github/workflows/test.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/default.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +14,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/package.json" />
   </component>
   <component name="ProjectId" id="1gJwGFs9UDAVxeBdfamuHE1vwRZ" />
   <component name="ProjectLevelVcsManager">
@@ -27,8 +29,12 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../zhodahealth" />
+    <property name="last_opened_file_path" value="Z:/thr4" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="C:\Development\Ruby\node_modules\prettier" />
     <property name="ts.external.directory.path" value="C:\Development\Ruby\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
@@ -46,6 +52,8 @@
       <option name="presentableId" value="Default" />
       <updated>1597845909324</updated>
       <workItem from="1597845910360" duration="3978000" />
+      <workItem from="1597852105157" duration="1176000" />
+      <workItem from="1597853304125" duration="2843000" />
     </task>
     <servers />
   </component>
@@ -53,9 +61,9 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1597848118189">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1597856091339">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1597848118189" />
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1597856091339" />
   </component>
 </project>
