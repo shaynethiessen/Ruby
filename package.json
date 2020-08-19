@@ -1,0 +1,20 @@
+{
+  "name": "ruby",
+  "version": "1.0.0",
+  "description": "Artificial Intelligence",
+  "main": "index.js",
+  "scripts": {
+    "buid": "yarn tsc",
+    "start": "tsc && node build/index.js"
+  },
+  "author": "Shayne Thiessen",
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "discord.js": "^12.3.1",
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^14.6.0",
+    "typescript": "^3.9.7"
+  }
+}
