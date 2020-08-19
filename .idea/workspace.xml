@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="690e0a8f-b0e8-4d7c-876f-d65a9d03d170" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Artificial-Intelligence/Message.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Artificial-Intelligence/Message.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Platforms/Discord.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Platforms/Discord.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +51,7 @@
       <updated>1597845909324</updated>
       <workItem from="1597845910360" duration="3978000" />
       <workItem from="1597852105157" duration="1176000" />
-      <workItem from="1597853304125" duration="2843000" />
+      <workItem from="1597853304125" duration="5661000" />
     </task>
     <servers />
   </component>
