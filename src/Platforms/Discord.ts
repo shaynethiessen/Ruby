@@ -18,17 +18,17 @@ export function Discord(): void {
 	});
 
 	bot.on('message', msg => {
-        if (!msg.author.bot) {
-            const response = Message(msg.content);
+		if (!msg.author.bot) {
+			const response = Message(msg.content);
 
-            switch (response.type) {
-                case 'replyAt':
-                    msg.reply(response.message);
-                    break;
-                case 'replyChannel':
-                    msg.channel.send(response.message);
-                    break;
-            }
-        }
+			switch (response.type) {
+				case 'replyAt':
+					msg.reply(response.message);
+					break;
+				case 'replyChannel':
+					msg.channel.send(response.message);
+					break;
+			}
+		}
 	});
 }

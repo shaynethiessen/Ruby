@@ -12,10 +12,10 @@ export function Message(receivedMessage: string): IMessage {
 		type = 'replyChannel';
 	}
 
-    if (receivedMessage === 'pong') {
-        message = 'ping';
-        type = 'replyChannel';
-    }
+	if (receivedMessage === 'pong') {
+		message = 'ping';
+		type = 'replyChannel';
+	}
 
 	return {
 		type,
