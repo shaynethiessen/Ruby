@@ -15,7 +15,7 @@ bot.on('ready', () => {
 bot.on('message', msg => {
     if (msg.content === 'ping') {
         msg.reply('pong');
-        msg.channel.send('pong');
+        // msg.channel.send('pong');
 
     } else if (msg.content.startsWith('!kick')) {
         if (msg.mentions.users.size) {
