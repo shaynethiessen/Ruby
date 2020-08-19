@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "buid": "tsc",
-    "start": "tsc && node build/index.js",
+    "start": "ts-node-dev src/index.ts",
     "pretty": "prettier --check src",
     "pretty:fix": "prettier --write src",
     "validate": "eslint src/**"
@@ -17,7 +17,8 @@
   },
   "dependencies": {
     "discord.js": "^12.3.1",
-    "dotenv": "^8.2.0"
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.4"
   },
   "devDependencies": {
     "@types/node": "^14.6.0",
@@ -28,6 +29,7 @@
     "eslint-config-universe": "^4.0.0",
     "eslint-plugin-prettier": "^3.1.4",
     "prettier": "^2.0.5",
-    "typescript": "^3.9.7"
+    "typescript": "^3.9.7",
+    "ts-node-dev": "^1.0.0-pre.58"
   }
 }
