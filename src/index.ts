@@ -1,7 +1,11 @@
+import {debug} from 'debug';
 import {Client} from 'discord.js';
 import {config} from 'dotenv';
 
 config({path: './.env'});
+debug.enable(process.env.DEBUG || '*');
+
+const d = debug('index');
 
 const bot = new Client();
 const TOKEN = process.env.DISCORD_BOT_TOKEN;
@@ -9,7 +13,7 @@ const TOKEN = process.env.DISCORD_BOT_TOKEN;
 bot.login(TOKEN);
 
 bot.on('ready', () => {
-	// console.info(`Logged in as ${bot.user?.tag}!`);
+	d(`Logged in as ${bot.user?.tag}!`);
 });
 
 bot.on('message', msg => {
