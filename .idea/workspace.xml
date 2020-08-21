@@ -2,6 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="690e0a8f-b0e8-4d7c-876f-d65a9d03d170" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Artificial-Intelligence/Process/IsEmoji.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Artificial-Intelligence/Response/SingleWord.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/default.env" beforeDir="false" afterPath="$PROJECT_DIR$/default.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Artificial-Intelligence/Message.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Artificial-Intelligence/Message.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Platforms/Discord.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Platforms/Discord.ts" afterDir="false" />
     </list>
@@ -9,6 +16,13 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -51,7 +65,12 @@
       <updated>1597845909324</updated>
       <workItem from="1597845910360" duration="3978000" />
       <workItem from="1597852105157" duration="1176000" />
-      <workItem from="1597853304125" duration="5661000" />
+      <workItem from="1597853304125" duration="5763000" />
+      <workItem from="1597867782208" duration="378000" />
+      <workItem from="1597869464730" duration="2584000" />
+      <workItem from="1597930195060" duration="4265000" />
+      <workItem from="1597952993878" duration="190000" />
+      <workItem from="1597953653051" duration="15000" />
     </task>
     <servers />
   </component>
@@ -59,9 +78,17 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1597856091339">
+    <state x="722" y="310" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1597950325771">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1597856091339" />
+    <state x="722" y="310" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1597950325771" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1597953666366">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1597953666366" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1597949998864">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1597949998864" />
   </component>
 </project>

@@ -14,20 +14,22 @@ export function Discord(): void {
 	bot.login(TOKEN);
 
 	bot.on('ready', () => {
-		d(`Logged in as ${bot.user?.tag}!`);
+		d(`Logged in to Discord as ${bot.user?.tag}!`);
 	});
 
 	bot.on('message', msg => {
 		if (!msg.author.bot) {
 			const response = Message(msg.content);
 
-			switch (response.type) {
-				case 'replyAt':
-					msg.reply(response.message);
-					break;
-				case 'replyChannel':
-					msg.channel.send(response.message);
-					break;
+			if(response) {
+				switch (response.type) {
+					case 'replyAt':
+						msg.reply(response.message);
+						break;
+					case 'replyChannel':
+						msg.channel.send(response.message);
+						break;
+				}
 			}
 		}
 	});

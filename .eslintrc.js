@@ -1,13 +1,14 @@
-module.exports = {
+	module.exports = {
 	extends: [
 		'universe',
+		'plugin:react/recommended',
 		// Uses the recommended rules from the @typescript-eslint/eslint-plugin
 		'plugin:@typescript-eslint/recommended',
 		// Enables eslint-plugin-prettier and eslint-con
 		'plugin:prettier/recommended',
 	],
 	rules: {
-		// General
+			   // General
 		'no-underscore-dangle': ['warn', {allowAfterThis: true, allow: ['_id']}],
 		'class-methods-use-this': 'off',
 		'global-require': 'error',
@@ -19,7 +20,7 @@ module.exports = {
 		'lines-between-class-members': ['error', 'always', {exceptAfterSingleLine: true}],
 		'no-use-before-define': ['off'],
 
-		// Typescript
+			   // Typescript
 		'@typescript-eslint/indent': ['off'],
 		'@typescript-eslint/no-unused-vars': ['error', {varsIgnorePattern: 'd', argsIgnorePattern: 'server|context|ctx|type'}],
 		'@typescript-eslint/no-unused-expressions': ['off'], // This was disabled because some upgrade to airbnb rules.
@@ -29,18 +30,36 @@ module.exports = {
 		'@typescript-eslint/ban-ts-ignore': ['off'],
 		'@typescript-eslint/interface-name-prefix': ['off'],
 		'@typescript-eslint/no-before-define': ['off'], // TODO This was disabled to support optional chaining: https://github.com/typescript-eslint/typescript-eslint/issues/1116
-		'@typescript-eslint/explicit-module-boundary-types': ['error'],
+															'@typescript-eslint/explicit-module-boundary-types': ['error'],
 
-		// ES6 Import
+			   // React
+		'react/forbid-prop-types': 'error',
+		'react/jsx-indent': ['off'],
+		'react/jsx-indent-props': ['off'],
+		'react/jsx-filename-extension': ['error', {extensions: ['.tsx']}],
+		'react/require-default-props': 'off',
+		'react/prefer-stateless-function': 'error',
+		'react/no-unknown-property': ['error', {ignore: ['for']}],
+		'react/no-unused-prop-types': 'off',
+		'react/no-typos': 'off',
+		'react/no-children-prop': 'off',
+		'react/destructuring-assignment': ['off', 'always'],
+		'react/jsx-curly-newline': ['off'],
+		'react/jsx-one-expression-per-line': 'off',
+		'react/jsx-props-no-spreading': ['off'],
+		'react/jsx-wrap-multilines': ['off'],
+		'react/display-name': ['off'],
+
+			   // ES6 Import
 		'import/no-extraneous-dependencies': 'off',
 		'import/no-unresolved': 'off',
 		'import/prefer-default-export': 'off',
 		'import/extensions': 'off',
 		'import/no-named-default': 'off',
 
-		// JSX a11y
+			   // JSX a11y
 		'jsx-a11y/label-has-for': 'off',
 		'jsx-a11y/anchor-is-valid': 'off',
 		'jsx-a11y/label-has-associated-control': 'off',
 	},
-};
+	};
