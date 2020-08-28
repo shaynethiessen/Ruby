@@ -1,19 +1,25 @@
+import {SingularParse} from "./Language/SingularParse";
+import {WordCount} from "./Process/WordCount";
+
 interface IMessage {
-	type: string;
-	message: string;
+	type: string | undefined;
+	message: string | undefined;
 }
 
 export function Message(receivedMessage: string): IMessage {
-	let message = '';
-	let type = '';
 
-	if (receivedMessage === 'ping') {
-		message = 'pong';
-		type = 'replyChannel';
+	let message;
+	let type;
+
+	const parsedReceivedMessage = receivedMessage.toLowerCase();
+	const wordCount = WordCount(parsedReceivedMessage);
+
+	if(wordCount === 1) {
+		message = SingularParse(parsedReceivedMessage);
 	}
 
-	if (receivedMessage === 'pong') {
-		message = 'ping';
+	// Checks if the AI gave us a response
+	if(message !== undefined) {
 		type = 'replyChannel';
 	}
 
