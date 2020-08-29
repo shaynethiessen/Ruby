@@ -20,7 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="690e0a8f-b0e8-4d7c-876f-d65a9d03d170" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Artificial-Intelligence/Dictionary/Greeting.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Artificial-Intelligence/Process/RandomNumber.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Artificial-Intelligence/Language/SingularParse.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Artificial-Intelligence/Language/SingularParse.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +57,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Artemis\Documents\GitHub\Ruby" />
       <recent name="$PROJECT_DIR$" />
       <recent name="C:\Development\Ruby" />
       <recent name="C:\Development\Ruby\.github\workflows" />
@@ -71,6 +75,7 @@
       <workItem from="1597852105157" duration="1176000" />
       <workItem from="1597853304125" duration="5661000" />
       <workItem from="1598648211927" duration="1714000" />
+      <workItem from="1598663985302" duration="1100000" />
     </task>
     <servers />
   </component>
@@ -87,8 +92,13 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="457" y="166" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1598664596937">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="457" y="166" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1598664596937" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1597856091339">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
